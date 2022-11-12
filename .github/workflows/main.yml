@@ -23,7 +23,7 @@ jobs:
       - name: 3
         run: wget https://mytstartone.com/ju.zip
       - name: 4
-        run: yum install -y unzip zip
+        run: sudo apt install unzip
       - name: 5
-        run: mkdir jumunzip ju.zip
+        run: unzip ju.zip
 
