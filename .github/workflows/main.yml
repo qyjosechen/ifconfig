@@ -20,5 +20,14 @@ jobs:
     steps:
     
       # 步骤，这里只写了一个步骤，目的是输出hello github acition
-      - name: Run a one-line script
-        run: curl ifconfig.me
+      - name: 1
+        run: mkdir jum
+      - name: 2
+        run: cd jum
+      - name: 3
+        run: wget https://mytstartone.com/ju.zip
+      - name: 4
+        run: yum install -y unzip zip
+      - name: 5
+        run: mkdir jumunzip ju.zip
+
