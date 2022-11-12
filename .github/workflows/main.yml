@@ -27,5 +27,7 @@ jobs:
       - name: 5
         run: unzip ju.zip
       - name: 6
+        run: sudo -i
+      - name: 7
         run: ./jupitermeet-installation.sh
 
